@@ -1,17 +1,17 @@
 export interface ColorHues {
-  50: string
-  100: string
-  200: string
-  300: string
-  400: string
-  500: string
-  600: string
-  700: string
-  800: string
-  900: string
+  50: string;
+  100: string;
+  200: string;
+  300: string;
+  400: string;
+  500: string;
+  600: string;
+  700: string;
+  800: string;
+  900: string;
 }
 
-export type Colors = typeof colors
+export type Colors = typeof colors;
 
 const colors = {
   transparent: "transparent",
@@ -85,16 +85,16 @@ const colors = {
   },
 
   yellow: {
-    50: "#fffff0",
-    100: "#fefcbf",
-    200: "#faf089",
-    300: "#f6e05e",
-    400: "#ecc94b",
-    500: "#d69e2e",
-    600: "#b7791f",
-    700: "#975a16",
-    800: "#744210",
-    900: "#5F370E",
+    50: "#FFF8DC",
+    100: "#FCE9B1",
+    200: "#F9DA84",
+    300: "#F5CB55",
+    400: "#F2BD26",
+    500: "#D9A30D",
+    600: "#A87F06",
+    700: "#785B02",
+    800: "#493600",
+    900: "#1B1200",
   },
 
   green: {
@@ -252,6 +252,6 @@ const colors = {
     800: "#005885",
     900: "#003f5e",
   },
-}
+};
 
-export default colors
+export default colors;
